@@ -540,9 +540,8 @@ h2 em {
     color: #333a31;
 }
 
-.web-links a {
-    font-weight: 300;
-    font-style: italic;
+.web-links {
+    text-decoration: underline;
 }
 
 .web-links a:hover {
