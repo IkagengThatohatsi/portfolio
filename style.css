@@ -543,6 +543,7 @@ h2 em {
 
 
 .web-links a:hover {
+    text-decoration: var(--burgundy);
     color: var(--burgundy);
 }
 
