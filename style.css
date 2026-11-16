@@ -540,7 +540,10 @@ h2 em {
     color: #333a31;
 }
 
-
+.web-links a {
+    font-weight: 100;
+    font-style: italic;
+}
 
 .web-links a:hover {
     text-decoration: var(--burgundy);
