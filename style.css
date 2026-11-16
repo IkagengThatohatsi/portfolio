@@ -513,28 +513,6 @@ h2 em {
     z-index: 1;
 }
 
-.preview-chef:after {
-    content: "";
-    position: absolute;
-    width: 155px;
-    height: 155px;
-    border: 1px solid #8d6d55;
-    border-radius: 50%;
-    right: -38px;
-    top: 54px;
-}
-
-.preview-chef:before {
-    content: "";
-    position: absolute;
-    width: 112px;
-    height: 112px;
-    border: 1px solid #8d6d55;
-    border-radius: 50%;
-    right: -16px;
-    top: 76px;
-}
-
 .preview-masakhane {
     background: #e0e2d7;
     color: #333a31;
@@ -547,68 +525,6 @@ h2 em {
 .web-links:hover,.web-links:focus-visible {
     text-decoration-color: var(--burgundy);
     color: var(--burgundy);
-}
-
-.preview-map {
-    height: 110px;
-    display: block;
-    position: relative;
-    margin: 10px 0;
-}
-
-.preview-map:before,.preview-map:after {
-    content: "";
-    position: absolute;
-    left: 8%;
-    right: 8%;
-    top: 50%;
-    height: 1px;
-    background: #9ca18f;
-    transform: rotate(-18deg);
-}
-
-.preview-map:after {
-    transform: rotate(26deg);
-}
-
-.preview-map i {
-    position: absolute;
-    z-index: 1;
-    width: 13px;
-    height: 13px;
-    border: 2px solid #f5f1e9;
-    background: var(--burgundy);
-    border-radius: 50%;
-}
-
-.preview-map i:nth-child(1) {
-    left: 18%;
-    top: 24%;
-}
-
-.preview-map i:nth-child(2) {
-    left: 46%;
-    top: 52%;
-}
-
-.preview-map i:nth-child(3) {
-    left: 68%;
-    top: 18%;
-}
-
-.preview-map i:nth-child(4) {
-    left: 78%;
-    top: 68%;
-}
-
-.preview-map b {
-    position: absolute;
-    z-index: 1;
-    left: 52%;
-    top: 4%;
-    font-size: 1.8rem;
-    color: var(--burgundy);
-    font-weight: 400;
 }
 
 .preview-data {
