@@ -540,11 +540,9 @@ h2 em {
     color: #333a31;
 }
 
-.web-links {
-    text-decoration: underline;
-}
 
-.web-links a:hover{
+
+.web-links a:hover {
     color: var(--burgundy);
 }
 
